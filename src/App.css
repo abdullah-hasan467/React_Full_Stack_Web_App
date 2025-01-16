@@ -1,0 +1,57 @@
+body{
+  background-color: #17202a;
+}
+html{
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+
+}
+
+p,a,li,input{
+  font-size: 1.6rem;
+  letter-spacing: 0.12rem;
+  line-height: 1.5;
+  color:aliceblue
+
+
+}
+
+button{
+  padding:0.8rem 3.2rem ;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  background-color: hsl(160,80%,48%);
+
+}
+
+.main-section{
+  width:100%;
+ height:auto;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+
+.section-post{
+  width: 90%;
+
+
+& ol{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2rem;
+}
+
+& li{
+background-color: #212f3c;
+padding: 1.6rem;
+border-radius: 0.3rem;
+}
+
+& .btn-delete{
+  background-color: red;
+  box-shadow: rgb(167,154,13) 0px 7px 19px 0px;
+}
+
+}
